@@ -1,0 +1,504 @@
+Please input a file path to create the network: 
+C:\Users\sarai\Music\configurationFile3.txt
+Network size: 6
+
+
+
+[R1, R2, R3, R4, R5, R6, ]
+
+Router R3 is now a neighbor of R1
+Router R5 is now a neighbor of R1
+Router R6 is now a neighbor of R1
+Router R4 is now a neighbor of R2
+Router R5 is now a neighbor of R2
+Router R6 is now a neighbor of R2
+Router R1 is now a neighbor of R3
+Router R5 is now a neighbor of R3
+Router R2 is now a neighbor of R4
+Router R6 is now a neighbor of R4
+Router R1 is now a neighbor of R5
+Router R2 is now a neighbor of R5
+Router R3 is now a neighbor of R5
+Router R6 is now a neighbor of R5
+Router R1 is now a neighbor of R6
+Router R2 is now a neighbor of R6
+Router R4 is now a neighbor of R6
+Router R5 is now a neighbor of R6
+Router@6aaa5eb0
+Router@1554909b
+Router@6bf256fa
+Router@6cd8737
+Router@22f71333
+Router@13969fbe
+R1's neighbors: 
+R5 R6 R3 
+
+----------------------------------------
+
+This is the packet's massage substring: R1
+Original Network Array:
+List: 
+R1 R2 R3 R4 R5 R6 
+
+R1's Network Array:
+List: 
+R2 R3 R4 R5 R6 
+
+Does R1 substring equal R1?
+Who sent this? R1
+R2's destinations: 
+R2's destinations: 
+R1 R3 R4 R5 R6 R5 R6 R3 
+
+Does R1 substring equal R1?
+Who sent this? R1
+R3's destinations: 
+R3's destinations: 
+R1 R2 R4 R5 R6 R5 R6 R3 
+
+Does R1 substring equal R1?
+Who sent this? R1
+R4's destinations: 
+R4's destinations: 
+R1 R2 R3 R5 R6 R5 R6 R3 
+
+Does R1 substring equal R1?
+Who sent this? R1
+R5's destinations: 
+R5's destinations: 
+R1 R2 R3 R4 R6 R5 R6 R3 
+
+Does R1 substring equal R1?
+Who sent this? R1
+R6's destinations: 
+R6's destinations: 
+R1 R2 R3 R4 R5 R5 R6 R3 
+R1's Routing Table: 
+         Router            Cost
+            R5                40 
+            R3                20 
+            R6                15 
+            R4        2147483637 
+            R2        2147483637 
+
+This is the packet's massage substring: R2
+Original Network Array:
+List: 
+R1 R2 R3 R4 R5 R6 
+
+R2's Network Array:
+List: 
+R1 R3 R4 R5 R6 
+
+Does R2 substring equal R1?
+
+Does R2 substring equal R2?
+Who sent this? R2
+R1's destinations: 
+R1's destinations: 
+R2 R3 R4 R5 R6 R6 R4 R5 
+
+Does R2 substring equal R1?
+
+Does R2 substring equal R2?
+Who sent this? R2
+R3's destinations: 
+R3's destinations: 
+R1 R2 R4 R5 R6 R5 R6 R3 R6 R4 R5 
+
+Does R2 substring equal R1?
+
+Does R2 substring equal R2?
+Who sent this? R2
+R4's destinations: 
+R4's destinations: 
+R1 R2 R3 R5 R6 R5 R6 R3 R6 R4 R5 
+
+Does R2 substring equal R1?
+
+Does R2 substring equal R2?
+Who sent this? R2
+R5's destinations: 
+R5's destinations: 
+R1 R2 R3 R4 R6 R5 R6 R3 R6 R4 R5 
+
+Does R2 substring equal R1?
+
+Does R2 substring equal R2?
+Who sent this? R2
+R6's destinations: 
+R6's destinations: 
+R1 R2 R3 R4 R5 R5 R6 R3 R6 R4 R5 
+R2's Routing Table: 
+         Router            Cost
+            R5                24 
+            R3        2147483637 
+            R6                30 
+            R5        2147483637 
+            R1        2147483637 
+            R4                23 
+            R6        2147483637 
+            R3        2147483637 
+
+This is the packet's massage substring: R3
+Original Network Array:
+List: 
+R1 R2 R3 R4 R5 R6 
+
+R3's Network Array:
+List: 
+R1 R2 R4 R5 R6 
+
+Does R3 substring equal R1?
+
+Does R3 substring equal R2?
+
+Does R3 substring equal R3?
+Who sent this? R3
+R1's destinations: 
+R1's destinations: 
+R2 R3 R4 R5 R6 R6 R4 R5 R1 R5 
+
+Does R3 substring equal R1?
+
+Does R3 substring equal R2?
+
+Does R3 substring equal R3?
+Who sent this? R3
+R2's destinations: 
+R2's destinations: 
+R1 R3 R4 R5 R6 R5 R6 R3 R1 R5 
+
+Does R3 substring equal R1?
+
+Does R3 substring equal R2?
+
+Does R3 substring equal R3?
+Who sent this? R3
+R4's destinations: 
+R4's destinations: 
+R1 R2 R3 R5 R6 R5 R6 R3 R6 R4 R5 R1 R5 
+
+Does R3 substring equal R1?
+
+Does R3 substring equal R2?
+
+Does R3 substring equal R3?
+Who sent this? R3
+R5's destinations: 
+R5's destinations: 
+R1 R2 R3 R4 R6 R5 R6 R3 R6 R4 R5 R1 R5 
+
+Does R3 substring equal R1?
+
+Does R3 substring equal R2?
+
+Does R3 substring equal R3?
+Who sent this? R3
+R6's destinations: 
+R6's destinations: 
+R1 R2 R3 R4 R5 R5 R6 R3 R6 R4 R5 R1 R5 
+R3's Routing Table: 
+         Router            Cost
+            R6        2147483637 
+            R5                10 
+            R6        2147483637 
+            R5        2147483637 
+            R1                20 
+            R4        2147483637 
+            R6        2147483637 
+            R3        2147483637 
+            R4        2147483637 
+            R2        2147483637 
+            R5        2147483637 
+
+This is the packet's massage substring: R4
+Original Network Array:
+List: 
+R1 R2 R3 R4 R5 R6 
+
+R4's Network Array:
+List: 
+R1 R2 R3 R5 R6 
+
+Does R4 substring equal R1?
+
+Does R4 substring equal R2?
+
+Does R4 substring equal R3?
+
+Does R4 substring equal R4?
+Who sent this? R4
+R1's destinations: 
+R1's destinations: 
+R2 R3 R4 R5 R6 R6 R4 R5 R1 R5 R6 R2 
+
+Does R4 substring equal R1?
+
+Does R4 substring equal R2?
+
+Does R4 substring equal R3?
+
+Does R4 substring equal R4?
+Who sent this? R4
+R2's destinations: 
+R2's destinations: 
+R1 R3 R4 R5 R6 R5 R6 R3 R1 R5 R6 R2 
+
+Does R4 substring equal R1?
+
+Does R4 substring equal R2?
+
+Does R4 substring equal R3?
+
+Does R4 substring equal R4?
+Who sent this? R4
+R3's destinations: 
+R3's destinations: 
+R1 R2 R4 R5 R6 R5 R6 R3 R6 R4 R5 R6 R2 
+
+Does R4 substring equal R1?
+
+Does R4 substring equal R2?
+
+Does R4 substring equal R3?
+
+Does R4 substring equal R4?
+Who sent this? R4
+R5's destinations: 
+R5's destinations: 
+R1 R2 R3 R4 R6 R5 R6 R3 R6 R4 R5 R1 R5 R6 R2 
+
+Does R4 substring equal R1?
+
+Does R4 substring equal R2?
+
+Does R4 substring equal R3?
+
+Does R4 substring equal R4?
+Who sent this? R4
+R6's destinations: 
+R6's destinations: 
+R1 R2 R3 R4 R5 R5 R6 R3 R6 R4 R5 R1 R5 R6 R2 
+R4's Routing Table: 
+         Router            Cost
+            R5        2147483637 
+            R3        2147483637 
+            R6                50 
+            R5        2147483637 
+            R2                23 
+            R5        2147483637 
+            R6        2147483637 
+            R1        2147483637 
+            R5        2147483637 
+            R1        2147483637 
+            R6        2147483637 
+            R3        2147483637 
+            R4        2147483637 
+
+This is the packet's massage substring: R5
+Original Network Array:
+List: 
+R1 R2 R3 R4 R5 R6 
+
+R5's Network Array:
+List: 
+R1 R2 R3 R4 R6 
+
+Does R5 substring equal R1?
+
+Does R5 substring equal R2?
+
+Does R5 substring equal R3?
+
+Does R5 substring equal R4?
+
+Does R5 substring equal R5?
+Who sent this? R5
+R1's destinations: 
+R1's destinations: 
+R2 R3 R4 R5 R6 R6 R4 R5 R1 R5 R6 R2 R2 R1 R3 R6 
+
+Does R5 substring equal R1?
+
+Does R5 substring equal R2?
+
+Does R5 substring equal R3?
+
+Does R5 substring equal R4?
+
+Does R5 substring equal R5?
+Who sent this? R5
+R2's destinations: 
+R2's destinations: 
+R1 R3 R4 R5 R6 R5 R6 R3 R1 R5 R6 R2 R2 R1 R3 R6 
+
+Does R5 substring equal R1?
+
+Does R5 substring equal R2?
+
+Does R5 substring equal R3?
+
+Does R5 substring equal R4?
+
+Does R5 substring equal R5?
+Who sent this? R5
+R3's destinations: 
+R3's destinations: 
+R1 R2 R4 R5 R6 R5 R6 R3 R6 R4 R5 R6 R2 R2 R1 R3 R6 
+
+Does R5 substring equal R1?
+
+Does R5 substring equal R2?
+
+Does R5 substring equal R3?
+
+Does R5 substring equal R4?
+
+Does R5 substring equal R5?
+Who sent this? R5
+R4's destinations: 
+R4's destinations: 
+R1 R2 R3 R5 R6 R5 R6 R3 R6 R4 R5 R1 R5 R2 R1 R3 R6 
+
+Does R5 substring equal R1?
+
+Does R5 substring equal R2?
+
+Does R5 substring equal R3?
+
+Does R5 substring equal R4?
+
+Does R5 substring equal R5?
+Who sent this? R5
+R6's destinations: 
+R6's destinations: 
+R1 R2 R3 R4 R5 R5 R6 R3 R6 R4 R5 R1 R5 R6 R2 R2 R1 R3 R6 
+R5's Routing Table: 
+         Router            Cost
+            R3                10 
+            R6                12 
+            R5        2147483637 
+            R2                24 
+            R5        2147483637 
+            R6        2147483637 
+            R6        2147483637 
+            R1        2147483637 
+            R5        2147483637 
+            R1                40 
+            R4        2147483637 
+            R6        2147483637 
+            R3        2147483637 
+            R4        2147483637 
+            R2        2147483637 
+
+This is the packet's massage substring: R6
+Original Network Array:
+List: 
+R1 R2 R3 R4 R5 R6 
+
+R6's Network Array:
+List: 
+R1 R2 R3 R4 R5 
+
+Does R6 substring equal R1?
+
+Does R6 substring equal R2?
+
+Does R6 substring equal R3?
+
+Does R6 substring equal R4?
+
+Does R6 substring equal R5?
+
+Does R6 substring equal R6?
+Who sent this? R6
+R1's destinations: 
+R1's destinations: 
+R2 R3 R4 R5 R6 R6 R4 R5 R1 R5 R6 R2 R2 R1 R3 R6 R2 R4 R1 R5 
+
+Does R6 substring equal R1?
+
+Does R6 substring equal R2?
+
+Does R6 substring equal R3?
+
+Does R6 substring equal R4?
+
+Does R6 substring equal R5?
+
+Does R6 substring equal R6?
+Who sent this? R6
+R2's destinations: 
+R2's destinations: 
+R1 R3 R4 R5 R6 R5 R6 R3 R1 R5 R6 R2 R2 R1 R3 R6 R2 R4 R1 R5 
+
+Does R6 substring equal R1?
+
+Does R6 substring equal R2?
+
+Does R6 substring equal R3?
+
+Does R6 substring equal R4?
+
+Does R6 substring equal R5?
+
+Does R6 substring equal R6?
+Who sent this? R6
+R3's destinations: 
+R3's destinations: 
+R1 R2 R4 R5 R6 R5 R6 R3 R6 R4 R5 R6 R2 R2 R1 R3 R6 R2 R4 R1 R5 
+
+Does R6 substring equal R1?
+
+Does R6 substring equal R2?
+
+Does R6 substring equal R3?
+
+Does R6 substring equal R4?
+
+Does R6 substring equal R5?
+
+Does R6 substring equal R6?
+Who sent this? R6
+R4's destinations: 
+R4's destinations: 
+R1 R2 R3 R5 R6 R5 R6 R3 R6 R4 R5 R1 R5 R2 R1 R3 R6 R2 R4 R1 R5 
+
+Does R6 substring equal R1?
+
+Does R6 substring equal R2?
+
+Does R6 substring equal R3?
+
+Does R6 substring equal R4?
+
+Does R6 substring equal R5?
+
+Does R6 substring equal R6?
+Who sent this? R6
+R5's destinations: 
+R5's destinations: 
+R1 R2 R3 R4 R6 R5 R6 R3 R6 R4 R5 R1 R5 R6 R2 R2 R4 R1 R5 
+R6's Routing Table: 
+         Router            Cost
+            R5                12 
+            R3        2147483637 
+            R5        2147483637 
+            R3        2147483637 
+            R6        2147483637 
+            R2                30 
+            R5        2147483637 
+            R6        2147483637 
+            R6        2147483637 
+            R1        2147483637 
+            R2        2147483637 
+            R5        2147483637 
+            R1        2147483637 
+            R1                15 
+            R4                50 
+            R6        2147483637 
+            R3        2147483637 
+            R4        2147483637 
+            R2        2147483637 
+
